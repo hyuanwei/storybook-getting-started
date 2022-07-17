@@ -5,6 +5,7 @@ import MinorBanner from "../components/minor.banner";
 import { text } from "@storybook/addon-knobs";
 
 storiesOf("Component | Banners/Major", module)
+    .addParameters({ info: { inline: false } })
     .add("With Only Title", () => (
         <MajorBanner
             title="Banner Title"

@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "lint": "eslint --fix ./",
-        "storybook": "start-storybook -p 6006 -s ./images",
-        "build-storybook": "build-storybook"
+        "storybook": "start-storybook -p 6006 -s ./Images",
+        "build-storybook": "build-storybook -s ./Images"
     },
     "author": "",
     "license": "ISC",
